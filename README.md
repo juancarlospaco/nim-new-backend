@@ -50,6 +50,23 @@ Rename `example.js` to the proper file extension you are compiling to,
 example `mv example.js example.py`.
 
 
+# Example
+
+```nim
+echo 42
+```
+:arrow_up: Nim :arrow_up: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :arrow_down: Python :arrow_down:
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Powered by Nim v1.1.1 https://nim-lang.org
+import sys
+from typing import *
+sys.dont_write_bytecode: Bool = True  # type: Bool
+print(str("42"))
+```
+
+
 # FAQ
 
 - Why not use Git SubRepos or Git SubTrees or Git SubModules?.
