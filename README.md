@@ -80,6 +80,10 @@ But if you have an idea to make this *less* complex, not more complex, then send
 
 It may produce errors on `import` and `include`.
 
+- But it generates a `*.js`?.
+
+Yes, but file extensions, tutorials, documentation, cosmetics, etc can be left for last details.
+
 - Why Python?.
 
 It is the second on popularity behind JavaScript, but Nim already has JavaScript.
