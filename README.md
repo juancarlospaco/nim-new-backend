@@ -1,7 +1,7 @@
 # Nim New Backend Template
 
 - Template to create a new Backend for Nim, based on the JavaScript Backend.
-- As minimalistic as possible to focus on codegen, edit 5 files only to create your new Nim Backend.
+- **Edit 5 files only to create your new Nim Backend**, as minimal as possible.
 - As example it implements a new Python Backend *(unfinished, PR Welcome)*.
 
 
@@ -36,21 +36,21 @@ $ cp --verbose --force nim-new-backend/lib/system/reprjs.nim Nim/lib/system/repr
 $ cd Nim
 $ sh ./build_all.sh
 $ koch boot
-$ echo "echo 42" > hello_world.nim
-$ bin/nim js -d:release -d:danger hello_world.nim
+$ echo "echo 42" > example.nim
+$ bin/nim js -d:release -d:danger example.nim
 ```
 
-- Open `hello_world.js`.
+- Open `example.js`.
 - Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
 $ koch boot
-$ bin/nim js -d:release -d:danger hello_world.nim
+$ bin/nim js -d:release -d:danger example.nim
 ```
 
 **Optional:**
-Rename `hello_world.js` to the proper file extension you are compiling to,
-example `mv hello_world.js hello_world.py`.
+Rename `example.js` to the proper file extension you are compiling to,
+example `mv example.js example.py`.
 
 
 # FAQ
