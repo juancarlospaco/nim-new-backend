@@ -81,3 +81,5 @@ It may produce errors on `import` and `include`.
 - Why Python?.
 
 It is the second on popularity behind JavaScript, but Nim already has JavaScript.
+
+To clean up code because JavaScript is kinda weird which also makes codegen kinda weird.
