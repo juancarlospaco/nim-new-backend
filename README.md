@@ -32,7 +32,7 @@ $ cp --verbose --force nim-new-backend/lib/system/reprjs.nim Nim/lib/system/repr
 
 $ cd Nim
 $ sh ./build_all.sh
-$ koch boot
+$ ./koch boot
 $ echo "echo 42" > example.nim
 $ bin/nim js -d:release -d:danger example.nim
 ```
@@ -41,7 +41,7 @@ $ bin/nim js -d:release -d:danger example.nim
 - Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
-$ koch boot
+$ ./koch boot
 $ bin/nim js -d:release -d:danger example.nim
 ```
 
@@ -73,6 +73,8 @@ print(str("42"))
 
 If you know Git SubRepos and Git SubTrees and Git SubModules,
 then you wont need this simplified repo.
+
+But if you have an idea to make this *less* complex, not more complex, then send PR.
 
 - Why not use SymLinks?.
 
