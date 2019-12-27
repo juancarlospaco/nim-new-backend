@@ -85,3 +85,5 @@ It may produce errors on `import` and `include`.
 It is the second on popularity behind JavaScript, but Nim already has JavaScript.
 
 To clean up code because JavaScript is kinda weird which also makes codegen weird.
+
+I imagine creating a Ruby or Go Backend from a Python backend is easier than from C.
