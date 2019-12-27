@@ -72,7 +72,7 @@ print(str("42"))
 - Why not use Git SubRepos or Git SubTrees or Git SubModules?.
 
 If you know Git SubRepos and Git SubTrees and Git SubModules,
-you wont need this simplified repo.
+then you wont need this simplified repo.
 
 - Why not use SymLinks?.
 
@@ -82,4 +82,4 @@ It may produce errors on `import` and `include`.
 
 It is the second on popularity behind JavaScript, but Nim already has JavaScript.
 
-To clean up code because JavaScript is kinda weird which also makes codegen kinda weird.
+To clean up code because JavaScript is kinda weird which also makes codegen weird.
