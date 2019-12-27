@@ -2,6 +2,7 @@
 
 - Template to create a new Backend for Nim, based on the JavaScript Backend.
 - As minimalistic as possible to focus on codegen.
+- As example it implements a new Python Backend *(unfinished, PR Welcome)*.
 
 
 # Use
@@ -24,7 +25,7 @@ $ bin/nim js -d:release -d:danger hello_world.nim
 ```
 
 - Open `hello_world.js`.
-- Hack code until you get valid code generated.
+- Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
 $ koch boot
@@ -42,3 +43,7 @@ example `mv hello_world.js hello_world.py`.
 
 If you know Git SubRepos and Git SubTrees and Git SubModules,
 you wont need this simplified repo.
+
+- Why Python?.
+
+It is the second on popularity behind JavaScript, but Nim already has JavaScript.
