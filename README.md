@@ -1,7 +1,7 @@
 # Nim New Backend Template
 
 - Template to create a new Backend for Nim, based on the JavaScript Backend.
-- As minimalistic as possible to focus on codegen.
+- As minimalistic as possible to focus on codegen, only required files.
 - As example it implements a new Python Backend *(unfinished, PR Welcome)*.
 
 
@@ -16,7 +16,7 @@ $ cd nim-new-backend
 
 ```console
 $ git clone https://github.com/nim-lang/Nim.git
-$ cp --verbose --force nim-new-backend/ Nim/
+$ ln -s --verbose nim-new-backend/ Nim/
 # cd Nim
 $ sh ./build_all.sh
 $ koch boot
