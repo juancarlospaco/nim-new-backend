@@ -1,7 +1,7 @@
 # Nim New Backend Template
 
 - Template to create a new Backend for Nim, based on the JavaScript Backend.
-- **Edit 5 files only to create your new Nim Backend**, as minimal as possible.
+- **Edit 4 files only to create your new Nim Backend**, as minimal as possible.
 - As example it implements a new Python Backend *(unfinished, PR Welcome)*.
 
 
@@ -23,9 +23,6 @@ $ cp --verbose --force nim-new-backend/compiler/jsgen.nim Nim/compiler/jsgen.nim
 
 $ cp --verbose --force nim-new-backend/compiler/jstypes.nim Nim/compiler/jstypes.nim
 'nim-new-backend/compiler/jstypes.nim' -> 'Nim/compiler/jstypes.nim'
-
-$ cp --verbose --force nim-new-backend/lib/js/jscore.nim Nim/lib/js/jscore.nim
-'nim-new-backend/lib/js/jscore.nim' -> 'Nim/lib/js/jscore.nim'
 
 $ cp --verbose --force nim-new-backend/lib/system/jssys.nim Nim/lib/system/jssys.nim
 'nim-new-backend/lib/system/jssys.nim' -> 'Nim/lib/system/jssys.nim'
