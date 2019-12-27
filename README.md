@@ -1,7 +1,7 @@
 # Nim New Backend Template
 
 - Template to create a new Backend for Nim, based on the JavaScript Backend.
-- As minimalistic as possible to focus on codegen, only the minimum possible needed files.
+- As minimalistic as possible to focus on codegen, edit 5 files only to create your new Nim Backend.
 - As example it implements a new Python Backend *(unfinished, PR Welcome)*.
 
 
