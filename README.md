@@ -32,17 +32,15 @@ $ cp --verbose --force nim-new-backend/lib/system/reprjs.nim Nim/lib/system/repr
 
 $ cd Nim
 $ sh ./build_all.sh
-$ ./koch boot
 $ echo "echo 42" > example.nim
-$ bin/nim js -d:release -d:danger example.nim
+$ ./koch temp js -d:release -d:danger example.nim
 ```
 
-- Open `example.js`.
+- Open `example.js`. A new Nim compiler binary executable will be saved to `./bin/nim`.
 - Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
-$ ./koch boot
-$ bin/nim js -d:release -d:danger example.nim
+$ ./koch temp js -d:release -d:danger example.nim
 ```
 
 **Optional:**
