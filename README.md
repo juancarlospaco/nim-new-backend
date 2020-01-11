@@ -25,7 +25,6 @@ $ cp --verbose --force lib/system/reprjs.nim Nim/lib/system/reprjs.nim
 'lib/system/reprjs.nim' -> 'Nim/lib/system/reprjs.nim'
 
 $ nim c Nim/koch.nim
-$ echo "echo 42" > example.nim
 $ Nim/koch temp js -d:release -d:danger example.nim
 ```
 
