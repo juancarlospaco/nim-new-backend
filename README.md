@@ -66,7 +66,7 @@ print(str("42"))
 
 # Requisites
 
-- Nim.
+- [Nim](https://nim-lang.org)
 
 
 # FAQ
@@ -88,7 +88,7 @@ Yes, but file extensions, tutorials, documentation, cosmetics, etc can be left f
 
 - Why Python?.
 
-It is the second on popularity behind JavaScript, but Nim already has JavaScript.
+It is the second on popularity behind JavaScript, but [Nim](https://nim-lang.org) [already has JavaScript.](https://nim-lang.org/docs/backends.html#backends-the-javascript-target)
 
 To clean up code because JavaScript is kinda weird which also makes codegen weird.
 
