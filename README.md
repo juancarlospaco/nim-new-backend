@@ -9,38 +9,31 @@
 
 ```
 $ git clone https://github.com/juancarlospaco/nim-new-backend.git
-```
-
-- Hack code.
-
-```console
+$ cd nim-new-backend
 $ git clone https://github.com/nim-lang/Nim.git
-$ ls
-Nim  nim-new-backend
 
-$ cp --verbose --force nim-new-backend/compiler/jsgen.nim Nim/compiler/jsgen.nim
-'nim-new-backend/compiler/jsgen.nim' -> 'Nim/compiler/jsgen.nim'
+$ cp --verbose --force compiler/jsgen.nim Nim/compiler/jsgen.nim
+'compiler/jsgen.nim' -> 'Nim/compiler/jsgen.nim'
 
-$ cp --verbose --force nim-new-backend/compiler/jstypes.nim Nim/compiler/jstypes.nim
-'nim-new-backend/compiler/jstypes.nim' -> 'Nim/compiler/jstypes.nim'
+$ cp --verbose --force compiler/jstypes.nim Nim/compiler/jstypes.nim
+'compiler/jstypes.nim' -> 'Nim/compiler/jstypes.nim'
 
-$ cp --verbose --force nim-new-backend/lib/system/jssys.nim Nim/lib/system/jssys.nim
-'nim-new-backend/lib/system/jssys.nim' -> 'Nim/lib/system/jssys.nim'
+$ cp --verbose --force lib/system/jssys.nim Nim/lib/system/jssys.nim
+'lib/system/jssys.nim' -> 'Nim/lib/system/jssys.nim'
 
-$ cp --verbose --force nim-new-backend/lib/system/reprjs.nim Nim/lib/system/reprjs.nim
-'nim-new-backend/lib/system/reprjs.nim' -> 'Nim/lib/system/reprjs.nim'
+$ cp --verbose --force lib/system/reprjs.nim Nim/lib/system/reprjs.nim
+'lib/system/reprjs.nim' -> 'Nim/lib/system/reprjs.nim'
 
-$ cd Nim
-$ sh ./build_all.sh
+$ nim c Nim/koch.nim
 $ echo "echo 42" > example.nim
-$ ./koch temp js -d:release -d:danger example.nim
+$ Nim/koch temp js -d:release -d:danger example.nim
 ```
 
-- Open `example.js`. A new Nim compiler binary executable will be saved to `./bin/nim`.
+- Open `example.js`. A new Nim compiler binary executable will be saved to `./Nim/bin/nim`.
 - Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
-$ ./koch temp js -d:release -d:danger example.nim
+$ Nim/koch temp js -d:release -d:danger example.nim
 ```
 
 **Optional:**
