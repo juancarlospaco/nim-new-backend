@@ -25,7 +25,7 @@ $ cp --verbose --force lib/system/reprjs.nim Nim/lib/system/reprjs.nim
 'lib/system/reprjs.nim' -> 'Nim/lib/system/reprjs.nim'
 
 $ nim c Nim/koch.nim
-$ Nim/koch temp js -d:release -d:danger example.nim
+$ Nim/koch temp js -d:release -d:danger -d:nodejs example.nim
 ```
 
 - Open `example.js`. A new Nim compiler binary executable will be saved to `./Nim/bin/nim`.
