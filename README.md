@@ -7,7 +7,7 @@
 
 # Use
 
-```
+```console
 $ git clone https://github.com/juancarlospaco/nim-new-backend.git
 $ cd nim-new-backend
 $ git clone https://github.com/nim-lang/Nim.git
