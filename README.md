@@ -58,6 +58,11 @@ print(str("42"))
 ```
 
 
+# Requisites
+
+- Nim.
+
+
 # FAQ
 
 - Why not use Git SubRepos or Git SubTrees or Git SubModules?.
