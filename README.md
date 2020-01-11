@@ -36,6 +36,12 @@ $ Nim/koch temp js -d:release -d:danger example.nim
 $ Nim/koch temp js -d:release -d:danger example.nim
 ```
 
+**Code to look at:**
+For more generating Nim see the dependency file generator:
+
+- https://github.com/nim-lang/Nim/blob/devel/compiler/depends.nim
+
+
 **Optional:**
 Rename `example.js` to the proper file extension you are compiling to,
 example `mv example.js example.py`.
