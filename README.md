@@ -37,7 +37,7 @@ $ Nim/koch temp js -d:release -d:danger example.nim
 ```
 
 **Code to look at:**
-For more generating Nim see the dependency file generator:
+See the dependency file generator, is a minimal working codegen:
 
 - https://github.com/nim-lang/Nim/blob/devel/compiler/depends.nim
 
