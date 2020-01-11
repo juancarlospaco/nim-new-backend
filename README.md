@@ -32,7 +32,7 @@ $ Nim/koch temp js -d:release -d:danger example.nim
 - Hack code until you get valid code generated, then compile the Nim compiler again.
 
 ```console
-$ Nim/koch temp js -d:release -d:danger example.nim
+$ Nim/koch temp js -d:release -d:danger -d:nodejs example.nim
 ```
 
 **Code to look at:**
